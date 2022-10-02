@@ -75,7 +75,8 @@ const Home = () => (
         <Paragraph>
           Akio is a student and a full-stack developer based on Indonesia
           passion for making digital stuff he wants. When not making project he
-          usualy plating games and watching animes. But important thing is he likes Cat.
+          usualy plating games and watching animes. But important thing is he
+          likes Cat.
         </Paragraph>
       </Section>
 
@@ -120,14 +121,11 @@ const Home = () => (
         </List>
 
         <Section delay={0.3}>
-          <Heading as="h3" variant="section-title">
+          <Heading as="h4" variant="section-title">
             I ♥
           </Heading>
-          <Paragraph>
-            Coding, Gaming, Machine Learning
-          </Paragraph>
+          <Paragraph>Coding, Gaming, Machine Learning</Paragraph>
         </Section>
-
       </Section>
     </Container>
   </Layout>
