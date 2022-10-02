@@ -10,7 +10,7 @@ import {
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 
-const IPUrl = "https://api.yoruakio.me/api/nusaps/raw-ip"
+const IPUrl = "https://express-vercel-two-navy.vercel.app/asd"
 
 // const Test = () => {
 //   return (
@@ -22,13 +22,17 @@ const IPUrl = "https://api.yoruakio.me/api/nusaps/raw-ip"
 
 export default function Test() {
     const [ post, setPost ] = useState(null);
+    const [ error, setError ] = useState(null);
 
     useEffect(() => {
         axios.get(IPUrl).then((response) => {
           setPost(response.data);
-        });
+        }).catch(error => {
+            setError(error)
+        })
     }, []);
     
+    if (error) return `Error: ${error.message}`;
     if (!post) return null;
 
     console.log(post)
