@@ -11,7 +11,7 @@ import Image from'next/image'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 
-const IPUrl = "https://nekos.life/api/v2/img/waifu"
+const IPUrl = "https://api.yoruakio.me/api/nusaps/raw-ip"
 
 // const Test = () => {
 //   return (
@@ -40,7 +40,8 @@ export default function Test() {
 
     return (
         <Container align="center">
-           <img src={post.url} align="center"></img>
+           // <img src={post.url} align="center"></img>
+           <Text align="center">{post}</Text>
         </Container>
     );
 }
