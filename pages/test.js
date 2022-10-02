@@ -11,7 +11,7 @@ import Image from'next/image'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 
-const IPUrl = "https://api.yoruakio.me/api/nusaps/raw-ip"
+const IPUrl = "https://express-vercel-two-navy.vercel.app/asd"
 
 // const Test = () => {
 //   return (
