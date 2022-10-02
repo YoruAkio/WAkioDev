@@ -11,7 +11,7 @@ import Image from'next/image'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 
-const IPUrl = "https://nekos.life/api/v2/img/spank"
+const IPUrl = "https://nekos.life/api/v2/img/waifu"
 
 // const Test = () => {
 //   return (
