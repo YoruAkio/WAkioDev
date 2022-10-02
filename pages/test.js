@@ -10,7 +10,7 @@ import {
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 
-const IPUrl = "https://express-vercel-two-navy.vercel.app/asd"
+const IPUrl = "https://nekos.life/api/v2/img/spank"
 
 // const Test = () => {
 //   return (
@@ -39,7 +39,7 @@ export default function Test() {
 
     return (
         <Container align="center">
-            <Text>{post}</Text>
+            <Text>{post.url}</Text>
         </Container>
     );
 }
