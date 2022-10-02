@@ -7,6 +7,7 @@ import {
   Button,
   chakra
 } from '@chakra-ui/react'
+import Image from'next/image'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 
@@ -39,7 +40,7 @@ export default function Test() {
 
     return (
         <Container align="center">
-            <Text>{post.url}</Text>
+            <Image align="center" src={post.url}>HooH</Image>
         </Container>
     );
 }
