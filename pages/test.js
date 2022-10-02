@@ -40,7 +40,7 @@ export default function Test() {
 
     return (
         <Container align="center">
-            <Image align="center" src={post.url}>HooH</Image>
+           <img src={post.url} align="center"></img>
         </Container>
     );
 }

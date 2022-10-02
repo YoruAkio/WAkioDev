@@ -150,7 +150,7 @@ const Uses = () => (
           <GridItem
           href="https://www.microsoft.com/software-download/windows11"
           title="Windows 11"
-          thumbnail={thumbWindows11}
+          thumbnail="https://cdn.nekos.life/waifu/f2ee58a4-70a3-4fcb-99da-96eacc98e6b2.jpg"
           ></GridItem>
           <GridItem
           href="https://archcraft.io"
