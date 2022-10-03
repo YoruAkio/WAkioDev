@@ -124,11 +124,9 @@ const Navbar = props => {
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
                 <MenuItem as={Link} href="https://ko-fi.com/yoruakio">
-                  <SiKofi />
                   Ko-Fi
                 </MenuItem>
                 <MenuItem as={Link} href="https://github.com/YoruAkio">
-                  <IoLogoGithub />
                   Github
                 </MenuItem>
               </MenuList>
