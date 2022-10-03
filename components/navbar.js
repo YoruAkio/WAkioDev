@@ -76,8 +76,8 @@ const Navbar = props => {
           <LinkItem href="/projects" path={path}>
             Projects
           </LinkItem>
-          <LinkItem href="/works" path={path}>
-            Works
+          <LinkItem href="/uses" path={path}>
+            Uses
           </LinkItem>
           <LinkItem
             target="_blank"
@@ -120,8 +120,8 @@ const Navbar = props => {
                 <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
-                <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
+                <NextLink href="/uses" passHref>
+                  <MenuItem as={Link}>Uses</MenuItem>
                 </NextLink>
                 <MenuItem as={Link} href="https://ko-fi.com/yoruakio">
                   Ko-Fi
