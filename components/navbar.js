@@ -117,13 +117,18 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                <NextLink href="/projects" passHref>
+                  <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
+                <MenuItem as={Link} href="https://ko-fi.com/yoruakio">
+                  <SiKofi />
+                  Ko-Fi
+                </MenuItem>
                 <MenuItem as={Link} href="https://github.com/YoruAkio">
+                  <IoLogoGithub />
                   Github
                 </MenuItem>
               </MenuList>
