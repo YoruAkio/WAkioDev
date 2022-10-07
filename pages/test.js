@@ -19,13 +19,11 @@ export default function Test() {
     const [ error, setError ] = useState(null);
     const GetWaifu = (e) => {
         e.preventDefault()
-        useEffect(() => {
-            axios.get(IPUrl).then((response) => {
-              setPost(response.data);
-            }).catch(error => {
-                setError(error)
-            })
-        }, []);
+        axios.get(IPUrl).then((response) => {
+          setPost(response.data);
+        }).catch(error => {
+            setError(error)
+        })
     }  
 
     useEffect(() => {
