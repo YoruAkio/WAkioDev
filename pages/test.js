@@ -43,12 +43,11 @@ export default function Test() {
         <Container align="center">
 
             <Text align="center">This is ur waifu</Text>
-            <img 
+            <Image
                 src={post.url}
-                align="center"
                 borderRadius="15px"
-                >
-            </img>
+              >
+            </Image>
 
             <Button
                 variant="ghost"
