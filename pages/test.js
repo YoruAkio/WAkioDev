@@ -12,11 +12,7 @@ import Image from'next/image'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 
-const WaifuImage = chakra(Image, {
-  shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
-})
 const IPUrl = "https://nekos.life/api/v2/img/waifu"
-
 
 export default function Test() {
     const [ post, setPost ] = useState(null);
@@ -47,13 +43,12 @@ export default function Test() {
         <Container align="center">
 
             <Text align="center">This is ur waifu</Text>
-            <WaifuImage
+            <img 
                 src={post.url}
-                alt="Waifu-Images"
+                align="center"
                 borderRadius="15px"
-                width="100%"
-                height="100%"
-            />
+                >
+            </img>
 
             <Button
                 variant="ghost"
