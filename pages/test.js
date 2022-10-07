@@ -1,16 +1,14 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import {
-  Box,
-  Heading,
-  Text,
   Container,
-  Divider,
   Button,
-  chakra
+  Heading,
 } from '@chakra-ui/react'
 import Image from'next/image'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
+import { SiStarship } from 'react-icons/si'
 
 const IPUrl = "https://nekos.life/api/v2/img/waifu"
 
@@ -24,7 +22,7 @@ export default function Test() {
         }).catch(error => {
             setError(error)
         })
-    }  
+    }
 
     useEffect(() => {
         axios.get(IPUrl).then((response) => {
@@ -41,22 +39,26 @@ export default function Test() {
 
     return (
         <Container align="center">
+          <Heading as="h1" marginBottom="20px">Your Waifu</Heading>
+          <Image
+              src={post.url}
+              align="center"
+              width="200px"
+              height="200px"
+            >
+          </Image>
 
-            <Text align="center">This is ur waifu</Text>
-            <img 
-                src={post.url}
-                align="center"
-                border-radius="15px"
-                >
-            </img>
-
-            <Button
-                variant="ghost"
-                colorScheme="teal"
-                onClick={GetWaifu}
-              >
-                Get Your Waifu
-            </Button>
+          <Container>
+                <Button
+                    marginTop="20px"
+                    marginBottom="20px"
+                    colorScheme="teal"
+                    onClick={GetWaifu}
+                    leftIcon={<SiStarship />}
+                  >
+                    Get Your Waifu
+                </Button>
+          </Container>
         </Container>
     );
 }
