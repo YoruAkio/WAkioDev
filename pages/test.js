@@ -14,13 +14,10 @@ import { useEffect, useState } from 'react'
 
 const IPUrl = "https://nekos.life/api/v2/img/waifu"
 
-// const Test = () => {
-//   return (
-//     <Container align="center">
-//       <Text>Hello, World!</Text>
-//     </Container>
-//   )
-// }
+const GetWaifu = (e) => {
+    e.preventDefault()
+    alert("Workss")
+}
 
 export default function Test() {
     const [ post, setPost ] = useState(null);
@@ -41,8 +38,17 @@ export default function Test() {
 
     return (
         <Container align="center">
-          <Text align="center">This is ur waifu</Text>
-          <img src={post.url} align="center"></img>
+
+            <Text align="center">This is ur waifu</Text>
+            <img src={post.url} align="center"></img>
+
+            <Button
+                variant="ghost"
+                colorScheme="teal"
+                onClick={GetWaifu}
+              >
+                Get Your Waifu
+            </Button>
         </Container>
     );
 }
