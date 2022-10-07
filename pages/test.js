@@ -14,14 +14,19 @@ import { useEffect, useState } from 'react'
 
 const IPUrl = "https://nekos.life/api/v2/img/waifu"
 
-const GetWaifu = (e) => {
-    e.preventDefault()
-    alert("Workss")
-}
-
 export default function Test() {
     const [ post, setPost ] = useState(null);
     const [ error, setError ] = useState(null);
+    const GetWaifu = (e) => {
+        e.preventDefault()
+        useEffect(() => {
+            axios.get(IPUrl).then((response) => {
+              setPost(response.data);
+            }).catch(error => {
+                setError(error)
+            })
+        }, []);
+    }  
 
     useEffect(() => {
         axios.get(IPUrl).then((response) => {
