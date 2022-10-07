@@ -47,7 +47,7 @@ export default function Test() {
         <Container align="center">
 
             <Text align="center">This is ur waifu</Text>
-            <ProfileImage
+            <WaifuImage
                 src={post.url}
                 alt="Waifu-Images"
                 borderRadius="15px"
