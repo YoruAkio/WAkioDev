@@ -110,7 +110,7 @@ const Spotify = () => {
   }
 
   const queryString =
-    'http://192.168.1.64:8888' +
+    'https://akio-dev.ml' +
     '/login?clientId=' +
     inputs.clientId +
     '&clientSecret=' +
@@ -118,7 +118,7 @@ const Spotify = () => {
     '&scope=' +
     inputs.scope +
     '&hostname=' +
-    'http://192.168.1.64:8888'
+    'https://192.168.1.64:8888'
 
   return (
     <Container align="center">
