@@ -148,14 +148,14 @@ const Uses = () => (
         </Heading>
         <SimpleGrid columns={[1, 2, 3]} gap={6}>
           <GridItem
-          href="https://www.microsoft.com/software-download/windows11"
-          title="Windows 11"
-          thumbnail={thumbWindows11}
+            href="https://www.microsoft.com/software-download/windows11"
+            title="Windows 11"
+            thumbnail={thumbWindows11}
           ></GridItem>
           <GridItem
-          href="https://archcraft.io"
-          title="ArchcraftOS"
-          thumbnail={thumbArchcraft}
+            href="https://archcraft.io"
+            title="ArchcraftOS"
+            thumbnail={thumbArchcraft}
           ></GridItem>
         </SimpleGrid>
       </Section>
