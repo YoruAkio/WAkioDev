@@ -118,7 +118,7 @@ const Spotify = () => {
     '&scope=' +
     inputs.scope +
     '&hostname=' +
-    'https://192.168.1.64:8888'
+    'https://akio-dev.ml'
 
   return (
     <Container align="center">
