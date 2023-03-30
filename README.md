@@ -19,7 +19,7 @@ You can visit my main website that has been published at https://akio-dev.ml
 - [Framer Motion](https://framer.com) - An animation library for React
 
 ## Getting Started
-# Setup Website
+### Setup Website
 
 - Launch terminal and run the following commands,
 ```bash
