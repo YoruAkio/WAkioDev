@@ -13,5 +13,13 @@
 You can visit my main website that has been published at https://akio-dev.ml
 ![image](https://user-images.githubusercontent.com/97880708/228973042-9f1a7646-a4c6-480e-aa03-44102c0e8a14.png)
 
-## Credits
-[Graavatar](https://gravatar.com) for image hosting.
+## What i use
+[Next.JS](https://nextjs.org)
+[Chakra-UI](https://chakra-ui.com)
+[Framer Motion](https://framer.com)
+
+## License
+MIT LICENSE,
+
+You can use this project for free without notifying me by forking this project under following the conditions:
+- You must give appropriate credit, provide a link to (My Website)[https://akio-dev.ml].
