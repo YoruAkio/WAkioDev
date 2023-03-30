@@ -5,7 +5,7 @@
     </h1>
     <img src="https://img.shields.io/badge/Next.JS-61DBFB?logo=mext.js&logoColor=white&style=for-the-badge">
     <img src="https://img.shields.io/github/stars/YoruAkio/WAkioDev.svg?logo=github&style=for-the-badge">
-    <img src="https://img.shields.io/github/last-commit/YoruAkio/WAkioDev.dev?style=for-the-badge">
+    <img src="https://img.shields.io/github/last-commit/YoruAkio/WAkioDev?style=for-the-badge">
     <img src="https://img.shields.io/website-up-down-green-red/https/akio-dev.ml.svg?logo=webpack&logoColor=white&style=for-the-badge">
 </div>
 
