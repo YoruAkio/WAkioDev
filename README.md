@@ -22,4 +22,4 @@ You can visit my main website that has been published at https://akio-dev.ml
 MIT LICENSE,
 
 You can use this project for free without notifying me by forking this project under following the conditions:
-- You must give appropriate credit, provide a link to (My Website)[https://akio-dev.ml].
+- You must give appropriate credit, provide a link to [My Website](https://akio-dev.ml).
