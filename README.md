@@ -13,10 +13,22 @@
 You can visit my main website that has been published at https://akio-dev.ml
 ![image](https://user-images.githubusercontent.com/97880708/228973042-9f1a7646-a4c6-480e-aa03-44102c0e8a14.png)
 
-## What i use
+## Stack
 - [Next.JS](https://nextjs.org) - A React framework with hybrid static & server rendering, and route pre-fetching, etc
 - [Chakra-UI](https://chakra-ui.com) - A simple, modular and accessible component library for React
 - [Framer Motion](https://framer.com) - An animation library for React
+
+## Getting Started
+# Setup Website
+
+- Launch terminal and run the following commands,
+```bash
+git clone https://github.com/YoruAkio/WAkioDev.git
+cd WAkioDev
+npm install --save
+```
+- Edit some files on `./pages/*`
+- Run test on the project by doing `npm run dev`
 
 ## License
 MIT LICENSE,
